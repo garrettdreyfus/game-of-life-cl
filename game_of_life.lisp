@@ -55,8 +55,5 @@
 	 (sleep 0.5)
 	)
 )
+(setq rulebook '((0 0 0 1 0 0 0 0 0 0) (0 0 1 1 0 0 0 0 0 0)))
 (runGame (randomizeGrid (makeGrid 20 10)) rulebook)
-(defun inputMenu()
- (setq rulebook '((0 0 0 1 0 0 0 0 0 0) (0 0 1 1 0 0 0 0 0 0)))
- 
-)
